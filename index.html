@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de CDB</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href='css/style.css'>
+</head>
+
+<body>
+    <main>
+        <div class="titulo">
+            <h1>Simulador de Investimento CDB</h1>
+        </div>
+        <div class=" valores">
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="entrada">Investimento Inicial</label>
+                        <input type="number" class="form-control" id="entrada" placeholder="R$ 0,00">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="mensal">Investimentos Mensal</label>
+                        <input type="number" class="form-control" id="mensal" placeholder="R$ 0,00">
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="prazo">Prazo em meses</label>
+                        <input type="number" class="form-control" id="prazo" placeholder="0">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="rendimento">Rendimento %</label>
+                        <input type="number" class="form-control" id="rendimento" placeholder="%  0,00">
+                    </div>
+                </div>
+                <a type="submit" id="simular" class="btn btn-primary btn-lg active">Simular</a>
+
+                <button type="reset " id="limpar" class="btn btn-outline-secondary">Limpar</button>
+            </form>
+        </div>
+        <div class="resultados hidden" id="container_resultados">
+            <h3 id="resultado"></h3><br>
+
+            <p id="total_investido"></p>
+
+            <p id="total_juros"></p>
+
+        </div>
+
+
+    </main>
+
+    <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>
