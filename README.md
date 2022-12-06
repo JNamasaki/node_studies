@@ -46,9 +46,9 @@ Technical Experience
 Meu projeto mais divertido — Quem é esse Pokemon?
 :   Baseado no quiz do famoso desenho animado Pokemon, construi este para praticar alguns conceitos de programação web.
 
-    * Projeto feito utilizando HTML,CSS,JS. 
-    * Acesse o projeto no [link](how-is-that-pokemon.vercel.app)
-    * Acesse o repositorio no [link](https://github.com/JNamasaki/how_is_that_pokemon)
+ * Projeto feito utilizando HTML,CSS,JS. 
+ * Acesse o projeto no [link](how-is-that-pokemon.vercel.app)
+ * Acesse o repositorio no [link](https://github.com/JNamasaki/how_is_that_pokemon)
 
 ## Conhecimentos
 
