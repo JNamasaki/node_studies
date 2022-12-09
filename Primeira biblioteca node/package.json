@@ -6,7 +6,9 @@
     "type": "module",
     "scripts": {
         "Start": "nodemon src/index.js",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "cli": "node ./src/cli.js ./arquivos",
+        "cli:valida": "node ./src/cli.js ./arquivos --valida"
     },
     "author": "",
     "license": "ISC",
