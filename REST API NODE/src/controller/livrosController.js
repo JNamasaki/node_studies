@@ -6,6 +6,7 @@ class LivroController {
         livros.find((err, livros) => {
             res.status(200).json(livros)
         })
+
     }
 
     static cadastrarLivros = (req, res) => {

@@ -13,24 +13,27 @@ app.use(express.json());
 
 routes(app)
 
+app.get("/livros", (req, res) => {
 
+    res.status(200).json(livros)
+
+})
+app.get('/livros/:id', (req, res) => {
+    let index = buscaLivro(req.params.id);
+    res.json(livros[index]);
+})
+
+
+app.put('/livros/:id', (req, res) => {
+    let index = buscaLivro(req.params.id);
+    livros[index].titulo = req.body.titulo;
+    res.json(livros)
+})
+app.delete('/livros/:id', (req, res) => {
+    let { id } = req.params;
+
+    livros.remove(id)
+    res.send(`Livro ${id} removido com sucesso`);
+
+})
 export default app
-
-// app.get('/livros/:id', (req, res) => {
-//     let index = buscaLivro(req.params.id);
-//     res.json(livros[index]);
-// })
-
-
-// app.put('/livros/:id', (req, res) => {
-//     let index = buscaLivro(req.params.id);
-//     livros[index].titulo = req.body.titulo;
-//     res.json(livros)
-// })
-// app.delete('/livros/:id', (req, res) => {
-//     let { id } = req.params;
-
-//     livros.remove(id)
-//     res.send(`Livro ${id} removido com sucesso`);
-
-// })
