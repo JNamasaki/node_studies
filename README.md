@@ -1,19 +1,13 @@
  # Jéssica Rodrigues
-### Desenvolvedora Node
 
----
 
 >  Eu sou a Jéssica Rodrigues, sou desenvolvedora JavaScript, discente de Desenvolvimento de Sistemas.
-> 
 >  Estou me especializando em NodeJS no meu [Github](https://github.com/JNamasaki/) você conferir meus projetos e estudos recentes.
+>  Atualmente estudando NodeJs e Java.
 > 
->  Atualmente estudando e trabalhando em BPMS (Business Process Management System) com base em JavaScript e Java.
-> 
-> :envelope: email: <r.jmrsilva.j@gmail.com>
-> 
-> :computer: Linkedin: [Jéssica Rodrigues](https://www.linkedin.com/in/jm-rod/)
-> 
-> :house: Localização - Novo Gama, Goiás
+>  Email: <r.jmrsilva.j@gmail.com>
+>  Linkedin: [Jéssica Rodrigues](https://www.linkedin.com/in/jm-rod/)
+>  Localização - Novo Gama, Goiás
 
 ----
 
@@ -21,11 +15,9 @@ Experience
 ----------
 
 **Estágio de desenvolvimento FullStack; Elogroup:**
-
-Periodo: _2021 - **_
-* Site **[Elogroup](https://elogroup.com.br/)**. 
-
-* Utilização do Javascript para automação de processos.
+Periodo: _2021 - 2023_
+- Site **[Elogroup](https://elogroup.com.br/)**. 
+- Utilização do Javascript para automação de processos.
 - Utilização diária das práticas Scrum, metodologia ágil.
 - Desenvolvimento de melhorias/automação do portal de serviços da prefeitura de Belo Horizonte.
 - Desenvolvimento de melhorias e sustentação do portal de processos da comgás.
@@ -43,48 +35,19 @@ Periodo: _2020 - 2022_
 Technical Experience
 --------------------
 
-Meu projeto mais divertido — Quem é esse Pokemon?
-:   Baseado no quiz do famoso desenho animado Pokemon, construi este para praticar alguns conceitos de programação web.
+* (Simulador de investimento): Simulador de Investimento em CDB Pré e Pós Fixados. [deploy](investment-simulator.vercel.app), [repositorio](https://github.com/JNamasaki/investment_simulator)
+* (Quem é esse Pokemon?): Projeto desenvolvido em HTML,CSS,JS.  [deploy](how-is-that-pokemon.vercel.app), [repositorio](https://github.com/JNamasaki/how_is_that_pokemon)
 
- * Projeto feito utilizando HTML,CSS,JS. 
- * Acesse o projeto no [link](how-is-that-pokemon.vercel.app)
- * Acesse o repositorio no [link](https://github.com/JNamasaki/how_is_that_pokemon)
 
 ## Conhecimentos
 
-### Gerais
-* Lógica de Programação.
-* Inglês (boa compreensão escrita e fala).
+* Lógica de Programação, Inglês (boa compreensão escrita e fala).
+* Linux, Windows
+* HTML,Markdown,  CSS (Design Responsivo), SASS, Bootstrap.
+* Java,JavaScript
+* MySQL, SQL Server
+* Git/GitHub,Git/Azure
 
-### Sistemas Operacionais
-* Linux
-* Windows
-
-### Front-end
-* HTML.
-  * Markdown.
-* CSS (Design Responsivo).
-  * SASS
-  * Arquitetura BEM
-
-### UI Kits
-* Bootstrap.
-
-
-### Linguagens de Programação
-* Java
-* JavaScript
-
-### Banco de Dados
-* MySQL.
-* SQL Server
-
-### Sistemas de controle de versão
-* Git/GitHub
-* Git/Azure
-
-
-----
 Educação
 ---------
 

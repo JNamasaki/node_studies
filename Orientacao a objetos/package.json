@@ -1,0 +1,12 @@
+{
+  "name": "orientacao-a-objetos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "User.js",
+  "type": "module",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "",
+  "license": "ISC"
+}
