@@ -1,11 +1,11 @@
 import mongoose, { Schema } from "mongoose";
 
-const salao = new Schema({
-    nome: {type:String, require: [true, "Nome é obrigatório"]},
+const salaoSchema = new Schema({
+    nome: {type:String, required: [true, "Nome é obrigatório"]},
     foto: String,
     capa: String,
-    email:{type:String, require: [true, "Email é obrigatório"]},
-    senha: {type:String, require: [true, "Senha é obrigatório"]},
+    email:{type:String, required: [true, "Email é obrigatório"]},
+    senha: {type:String, required: [true, "Senha é obrigatório"]},
     telefone: String,
     endereco: {
         pais: String,
@@ -21,5 +21,7 @@ const salao = new Schema({
     dataCadastro:{ type: Date, default: Date.now}
 });
 
-salao.index({geo: '2dsphere'});
-module.exports = mongoose.model('Salao',salao);
+salaoSchema.index({geo: '2dsphere'});
+const salao = mongoose.model('Salao',salaoSchema);
+
+export default salao

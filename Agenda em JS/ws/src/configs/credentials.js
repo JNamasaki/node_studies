@@ -1,7 +1,7 @@
  const credencial_banco = {
-    "banco": "JYA_TESTE",
-    "user": "JNamasaki",
-    "password": "10Ladinos"
+    "banco": "salao-na-mao",
+    "user": "salaoUser",
+    "password": "H4Bq7a83Lc5fDNA1"
 }
 
 export default credencial_banco;

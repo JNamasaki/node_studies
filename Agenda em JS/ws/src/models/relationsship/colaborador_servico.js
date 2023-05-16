@@ -7,4 +7,4 @@ const colaboradorServico = new Schema({
     dataCadastro:{ type: Date, default: Date.now}
 });
 
-module.exports = mongoose.model('Colaborador_Servico',colaboradorServico);
+module.exports = mongoose.model('ColaboradorServico',colaboradorServico);
