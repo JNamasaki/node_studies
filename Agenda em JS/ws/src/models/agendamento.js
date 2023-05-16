@@ -1,11 +1,11 @@
 import mongoose, { Schema } from "mongoose";
 
 const agendamento = new Schema({
-    colaboradorId: ObjectId,
-    clienteId:ObjectId,
-    salaoId: ObjectId,
-    servico: ObjectId,
-    horarioId: ObjectId,
+    colaboradorId: {type: mongoose.Types.ObjectId, ref: 'Colaborador'},
+    clienteId:{type: mongoose.Types.ObjectId, ref: 'Cliente'},
+    salaoId: {type: mongoose.Types.ObjectId, ref: 'Salao'},
+    servicoId:{type: mongoose.Types.ObjectId, ref: 'Servico'},
+    horarioId: {type: mongoose.Types.ObjectId, ref: 'Horario'},
     data: Date,
     comissao: Number,
     valor: Number,
