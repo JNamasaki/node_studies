@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
-const cliente = new Schema({
+const clienteSchema = new Schema({
     nome: {type:String, required: [true, "Nome é obrigatório"]},
     cpfCnpj: {type:String, required: [true, "CPF/CNPJ é obrigatório"]},
     email:{type:String, required: [true, "Email é obrigatório"]},
@@ -26,4 +26,5 @@ const cliente = new Schema({
 });
 
 
-module.exports = mongoose.model('Cliente',cliente);
+const cliente = mongoose.model('Cliente',clienteSchema);
+export default cliente;

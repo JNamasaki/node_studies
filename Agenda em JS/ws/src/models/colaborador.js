@@ -1,6 +1,6 @@
 import mongoose, { Schema } from "mongoose";
 
-const colaborador = new Schema({
+const colaboradorSchema = new Schema({
     nome: {type:String, require: [true, "Nome é obrigatório"]},
     cpfCnpj: {type:String, require: [true, "CPF/CNPJ é obrigatório"]},
     foto: String,
@@ -15,7 +15,7 @@ const colaborador = new Schema({
         titular: String,
         cpfCnpj: String,
         banco: String,
-        tipo: Number,
+        tipo: String,
         agencia: String,
         numero:String,
         div:String
@@ -25,4 +25,6 @@ const colaborador = new Schema({
 });
 
 
-module.exports = mongoose.model('Colaborador',colaborador);
+const colaborador = mongoose.model('Colaborador',colaboradorSchema);
+
+export default colaborador;

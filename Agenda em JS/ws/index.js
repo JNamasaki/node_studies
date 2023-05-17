@@ -2,7 +2,7 @@ import express from "express";
 // import moongose from "mongose";
 import morgan from "morgan";
 import db from "./src/controls/dbConnector.js";
-import salaoRoute from "./src/routes/salao.routes.js";
+import appRoutes from "./src/routes/routes.routes.js";
 import cors from "cors"
 
 db.on("error", console.log.bind(console, 'Erro de conexão'))
@@ -23,7 +23,8 @@ app.use(
 app.set('port', 3000);
 
 // ROTAS
-app.use('/salao', salaoRoute);
+app.use(appRoutes);
+
 
 app.listen(app.get('port'), ()=>{
     console.log(`WS Wscutando na porta ${app.get('port')}`);

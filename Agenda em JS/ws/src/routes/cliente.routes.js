@@ -4,10 +4,10 @@ const clienteRoute = express.Router();
 
 clienteRoute.post('/', async(req,res) =>{
     try {
-        const salao = await new Salao(req.body).save();
-        res.json({salao})
+        const cliente = await new Cliente(req.body).save();
+        res.json({cliente});
     } catch (error) {
-        res.json({ error: true, message: error.message})
+        res.json({ error: true, message: error.message});
     }
 })
 

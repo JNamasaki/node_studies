@@ -1,5 +1,12 @@
-import express from "express";
 
-const routes = express.Router();
+import salaoRoute from "./salao.routes.js";
+import clienteRoute from "./cliente.routes.js";
+import colaboradorRoute from "./colaborador.routes.js";
+import e from "express";
 
-export default routes
+const appRoutes = e();
+appRoutes.use('/salao', salaoRoute);
+appRoutes.use('/cliente', clienteRoute);
+appRoutes.use('/colaborador', colaboradorRoute);
+
+export default appRoutes;
